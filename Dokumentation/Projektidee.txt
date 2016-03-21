@@ -1,0 +1,2 @@
+Ich möchte gerne eine Sammlung von Mini-Spielen programmieren wie zum Beispiel Mastermind, Schere Stein Papier, etc.
+Die Spiele können über die jeweilgen Unterseiten aufgerufen werden und gespielt werden.
