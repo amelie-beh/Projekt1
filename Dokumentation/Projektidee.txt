@@ -1,3 +1,12 @@
+=== Überarbeitung der Projektidee amelie-beh, 2016-04-07 ===
+
+Ich möchte gerne das Spiel Mastermind mit Zahlen umsetzen.
+
+Ziel des Spieles ist es, einen vierstelligen Code zu erraten. Der Code besteht hierbei aus zufällig generierten Zahlen zwischen 0 und 9 (eine Zahl kann auch doppelt vorkommen).
+Der Spieler hat hierbei 10 Versuche um den Code herauszufinden. Nach jedem Zug bekommt der Spieler einen Hinweis, wie viele Zahlen er bereits richtig geraten und ob sich diese Zahlen an der richtigen Position befinden.
+
+Hierbei wird die Zeit bis zum Erraten des gesamten Codes gemessen. Die Zeiten sollen in einer Highscore-Liste erscheinen, damit man sich mit anderen Spielern messen kann.
+
 === Projektidee amelie-beh, 2016-04-05 ===
 
 Ich möchte gerne eine Sammlung von Mini-Spielen programmieren wie zum Beispiel Mastermind, Schere Stein Papier, etc.
