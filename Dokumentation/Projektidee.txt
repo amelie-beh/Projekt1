@@ -91,3 +91,11 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+=== Feedback Alpers, 2016-04-27 ===
+
+Leider ist das keine gute Projektidee, weil die geforderte Interaktion fehlt. Effektiv läuft es darauf hinaus, dass Spieler eine Zahl/Farbkombi/Wort erraten muss.
+
+Damit Sie weiterarbeiten können, nehmen Sie sich bitte folgendes Brettspiel zur Vorlage, erarbeiten dazu eine Beschreibung im Sinne von Kap. 5 und entwickeln danach die Datei strukt.html: Jenseits von Theben http://www.brettspiele-report.de/jenseits-von-theben/
+
+=== Feedback Ende ===
