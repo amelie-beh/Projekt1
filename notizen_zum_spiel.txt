@@ -1,0 +1,77 @@
+Notizen zum Spiel
+
+- - - Reisedauer - - - 
+
+Warschau
+1 Woche: Moskau, Wien, Berlin, Griechenland
+2 Wochen: Paris, London, Rom, Mesopotamien, Kreta
+3 Wochen: Ägypten, Palästina
+
+Berlin
+1 Woche: Warschau, London, Paris
+2 Wochen: Wien, Rom, Griechenland, Moskau
+3 Wochen: Kreta, Mesopotamien
+4 Wochen: Ägypten, Palästina
+
+Wien
+1 Woche: Warschau, Paris, Rom
+2 Wochen: Moskau, London, Griechenland, Kreta, Berlin
+3 Wochen: Mesopotamien, Ägypten, Palästina
+
+London
+1 Woche: Paris, Berlin
+2 Wochen: Warschau, Wien, Rom
+3 Wochen: Kreta, Moskau, Griechenland
+4 Wochen: Ägypten, Palästina, Mesopotamien
+
+Rom
+1 Woche: Paris, Wien, Griechenland, Kreta
+2 Wochen: Warschau, Berlin, London, Ägypten, Palästina, Mesopotamien
+3 Wochen: Moskau
+
+Paris
+1 Woche: London, Berlin, Wien, Rom
+2 Wochen: Warschau, Griechenland, Kreta
+3 Wochen: Moskau, Mesopotamien, Ägypten, Palästina
+
+Moskau
+1 Woche: Warschau
+2 Wochen: Berlin, Wien, Griechenland
+3 Wochen: London, Paris, Rom, Kreta, Mesopotamien
+4 Wochen: Ägypten, Palästina
+
+Griechenland
+1 Woche: Warschau, Rom, Kreta, Mesopotamien
+2 Wochen: Palästina, Ägypten, Wien, Moskau, Berlin
+3 Wochen: Paris, London
+
+Palästina
+1 Woche: Mesopotamien, Ägypten, Kreta
+2 Wochen: Griechenland, Rom
+3 Wochen: Warschau, Wien, Paris
+4 Wochen: London, Moskau, Berlin
+
+Ägypten
+1 Woche: Kreta, Palästina
+2 Wochen: Mesopotamien, Griechenland, Rom
+3 Wochen: Wien, Paris, Warschau
+4 Wochen: Berlin, Moskau, London
+
+Mesopotamien
+1 Woche: Griechenland, Palästina
+2 Wochen: Ägypten, Kreta, Warschau, Rom
+3 Wochen: Paris, Berlin, Moskau, Wien
+4 Wochen: London
+
+Kreta
+1 Woche: Griechenland, Ägypten, Rom, Palästina
+2 Wochen: Mesopotamien, Warschau, Wien, Paris
+3 Wochen: London, Berlin, Moskau
+
+- - - Forscherkarten - - - 
+
+folgt noch
+
+- - - Ausstellungskarten - - -
+
+folgt noch
