@@ -56,4 +56,15 @@ Leider ist das keine gute Projektidee, weil die geforderte Interaktion fehlt. Ef
 
 Damit Sie weiterarbeiten können, nehmen Sie sich bitte folgendes Brettspiel zur Vorlage, erarbeiten dazu eine Beschreibung im Sinne von Kap. 5 und entwickeln danach die Datei strukt.html: Jenseits von Theben http://www.brettspiele-report.de/jenseits-von-theben/
 
-=== Feedback Ende ===
+===================================
+=== Feedback Alpers, 2016-06-08 ===
+===================================
+
+Gut. Sie müssen jetzt noch ausarbeiten, wie computergesteuerte Spieler an der Partie teilnehmen bzw. wie sie dabei vorgehen.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
