@@ -6,11 +6,16 @@ Auf Grundlage des Brettspiels "Jenseits von Theben" http://www.brettspiele-repor
 In dem Spiel geht es darum als Archäologe durch Europa zu reisen und Fundstücke zu finden.
 Diese Fundstücke bringen Ruhmpunkte. Der Spieler mit den meisten Rumpunkten gewinnt.
 
+Der Anwender kann zwischen 2, 3 und 4 Gegnern auswählen.
+
 Die Webanwendung hat folgende Aufgaben:
 - Sie steuert die Gegner des Anwenders
+	- Diese sollen einen gewissen Intelligenzgrad besitzen, sodass das Spiel nicht allzu leicht für den Anwender ist
+	- Sie wählt die Aktion aus, die am wenigstens Wochen braucht (bei Gleichstand -> Zufall)
+- Sie zeigt die Züge des/der Gegner/s an
 - Sie weist die Spielzüge zu
 - Sie rechnet die Anzeige der Zeitsteine und der Jahressteine aus
-- Sie reagiert auf die Aktionen des Anwenders (Forscherkarte nehmen, Kartenauslagetausch, Ausgrabung durchführen, Ausstellung durchführen)
+- Sie reagiert auf die Aktionen des Anwenders und der Gegner(Forscherkarte nehmen, Kartenauslagetausch, Ausgrabung durchführen, Ausstellung durchführen)
 - Sie zeigt den Grabungserfolg an und rechnet diesen aus
 - Sie wählt zufällig Forscherkarten und Ausstellungskarten aus, die der Anwender auswählen kann
 - Sie verwaltet die Grabungserlaubnis von jedem Gebiet
@@ -18,6 +23,8 @@ Die Webanwendung hat folgende Aufgaben:
 - Sie speichert die Ruhmpunkte der verschiedenen Fundstücke/Forscherkarten ab und greift, falls nötig, darauf zu
 - Sie speichert, welche Karten der Anwender bereits genommen hat
 - Sie rechnet die Ruhmpunkte am Ende des Spieles zusammen und teilt den Gewinner mit
+- Sie gewährt dem Spieler durch einen Log-In Zutritt
+- Sie speichert den aktuellen Spielstand des Anwenders, falls dieser zu einem späteren Zeitpunkt weiter spielen möchte
 
 ============================================================
 === Überarbeitung der Projektidee amelie-beh, 2016-04-07 ===

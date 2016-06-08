@@ -9,31 +9,112 @@
 
 <!--
 
+=============================
+=== strukturelle Elemente ===
+=============================
+
 - - - Startseite - - -
 
-- Textfeld (für Username)
-- Anzeige Spielregeln
-- Button ("Spiel starten", Link zur Spielseite)
+-01- Textfeld (für Username)
+-02- Textfeld (für Passwort)
+-03- Schaltfläche (Bestätigen)
+-04- Dropdownmenü (Anzahl Gegner)
+-05- Schaltfläche (Link zu den Spielregeln)
+-06- Schaltfläche ("Spiel starten", Link zur Spielseite)
+-07- Anzeige der Zeitleiste (Woche)
+-08- Anzeige der Zeitleiste (Jahr)
+-09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
+-10- Schaltfläche in Tabelle (Reise nach Warschau)
+-11- Schaltfläche in Tabelle (Reise nach Berlin)
+-12- Schaltfläche in Tabelle (Reise nach Wien)
+-13- Schaltfläche in Tabelle (Reise nach London)
+-14- Schaltfläche in Tabelle (Reise nach Rom)
+-15- Schaltfläche in Tabelle (Reise nach Paris)
+-16- Schaltfläche in Tabelle (Reise nach Moskau)
+-17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
+-18- Schaltfläche in Tabelle (Reise nach Griechenland)
+-19- Schaltfläche in Tabelle (Reise nach Palästina)
+-20- Schaltfläche in Tabelle (Reise nach Ägypten)
+-21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
+-22- Schaltfläche in Tabelle (Reise nach Kreta)
+-23- 4 Tabellen für Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+-24- Schaltfläche (Forscherkarte 1 nehmen)
+-25- Schaltfläche (Forscherkarte 2 nehmen)
+-26- Schaltfläche (Forscherkarte 3 nehmen)
+-27- Schaltfläche (Forscherkarte 4 nehmen)
+-28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+-24- Schaltfläche (Ausstellungskarte 1 nehmen)
+-25- Schaltfläche (Ausstellungskarte 2 nehmen)
+-26- Schaltfläche (Ausstellungskarte 3 nehmen)
+-27- Schaltfläche (Ausstellungskarte 4 nehmen)
+-28- Anzeige (Spieler xx ist am Zug und macht xx)
+-29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
+-30- Anzeige (Grabungserfolg)
+-31- Anzeige (Grabungserlaubnis)
+-32- Anzeige (Spielregeln)
+-33- Anzeige (Ruhmpunkte)
+-34- Anzeige (Spielername)
+-35- Anzeige (Gegnernamen)
 
-- - - Spielseite - - -
+===========================
+=== Gruppen & Ansichten ===
+===========================
 
-Oben
+I. view_index
+-01- Textfeld (für Username)
+-02- Textfeld (für Passwort)
+-03- Schaltfläche (Bestätigen, Link zu view_startseite)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 
-- Anzeige der Zeitleiste (Woche und Jahr)
-- Schaltfläche (Link zu den Spielregeln)
+II. view_startseite
+-04- Dropdownmenü (Anzahl Gegner)
+-03- Schaltfläche (Bestätigen)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+-06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
 
-In der Mitte
+III. view_spielregeln
+-31- Anzeige (Spielregeln)
 
-- Tabelle für Städte 7x2 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
-- Tabelle für Grabungsgebiete 5x2 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
-- 4 Tabellen für Forscherkarten 3x2 (Anzeige Stadt, Dauer und Beschreibung)
-- 3 Tabellen für Ausstellungskarten 3x2 (Anzeige Stadt, Dauer und Beschreibung)
+IV. view_spielfeld
+-34- Anzeige (Spielername)
+-35- Anzeige (Gegnernamen)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+-07- Anzeige der Zeitleiste (Woche)
+-08- Anzeige der Zeitleiste (Jahr)
+-09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
+-10- Schaltfläche in Tabelle (Reise nach Warschau)
+-11- Schaltfläche in Tabelle (Reise nach Berlin)
+-12- Schaltfläche in Tabelle (Reise nach Wien)
+-13- Schaltfläche in Tabelle (Reise nach London)
+-14- Schaltfläche in Tabelle (Reise nach Rom)
+-15- Schaltfläche in Tabelle (Reise nach Paris)
+-16- Schaltfläche in Tabelle (Reise nach Moskau)
+-17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
+-18- Schaltfläche in Tabelle (Reise nach Griechenland)
+-19- Schaltfläche in Tabelle (Reise nach Palästina)
+-20- Schaltfläche in Tabelle (Reise nach Ägypten)
+-21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
+-22- Schaltfläche in Tabelle (Reise nach Kreta)
+-23- 4 Tabellen für Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+-24- Schaltfläche (Forscherkarte 1 nehmen)
+-25- Schaltfläche (Forscherkarte 2 nehmen)
+-26- Schaltfläche (Forscherkarte 3 nehmen)
+-27- Schaltfläche (Forscherkarte 4 nehmen)
+-28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+-24- Schaltfläche (Ausstellungskarte 1 nehmen)
+-25- Schaltfläche (Ausstellungskarte 2 nehmen)
+-26- Schaltfläche (Ausstellungskarte 3 nehmen)
+-27- Schaltfläche (Ausstellungskarte 4 nehmen)
+-28- Anzeige (Spieler xx ist am Zug und macht xx)
+-29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
+-30- Anzeige (Grabungserfolg)
+-31- Anzeige (Grabungserlaubnis)
+-33- Anzeige (Ruhmpunkte)
 
-Unten
-
-- Anzeige (Spieler xx ist am Zug)
-- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
-- Anzeige für Informationen (Grabungserfolg, Grabungserlaubnis)
+V. view_spielende
+-34- Anzeige (Spielername)
+-35- Anzeige (Gegnernamen)
+-33- Anzeige (Ruhmpunkte)
 
 -->
 
