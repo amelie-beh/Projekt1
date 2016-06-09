@@ -56,41 +56,45 @@
 -36- Schaltfläche(Account erstellen)
 -37- Textfeld (Email Adresse eingeben)
 -38- Textfeld(Passwort bestätigen)
+-39- Anzeige (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
 
-===========================
-=== Gruppen & Ansichten ===
-===========================
 
-- - - - - - - - - - - - -
-- - - I. view_index - - -
-- - - - - - - - - - - - -
+
+
+===============
+=== Gruppen ===
+===============
+
+- - - - - - - - - - - 
+- - - I. Log In - - -
+- - - - - - - - - - - 
 -01- Textfeld (für Username)
 -02- Textfeld (für Passwort)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
 -36- Schaltfläche(Account erstellen, Link zur view_account)
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 
-- - - - - - - - - - - - - - - -
-- - - II. view_startseite - - -
-- - - - - - - - - - - - - - - -
--04- Dropdownmenü (Anzahl Gegner)
--03- Schaltfläche (Bestätigen)
+- - - - - - - - - - - - - - 
+- - - II. Spielregeln - - -
+- - - - - - - - - - - - - - 
 -05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
--06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
-
-- - - - - - - - - - - - - - - - -
-- - - III. view_spielregeln - - -
-- - - - - - - - - - - - - - - - -
 -31- Anzeige (Spielregeln)
 
-- - - - - - - - - - - - - - - -
-- - - IV. view_spielfeld - - - -
-- - - - - - - - - - - - - - - -
--34- Anzeige (Spielername)
--35- Anzeige (Gegnernamen)
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+- - - - - - - - - - - - - - - - - - 
+- - - III. Optionen beim Start - - -
+- - - - - - - - - - - - - - - - - -
+-04- Dropdownmenü (Anzahl Gegner)
+-03- Schaltfläche (Bestätigen)
+-06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
+
+- - - - - - - - - - - - - -
+- - - IV. Zeitleisten - - - 
+- - - - - - - - - - - - - - 
 -07- Anzeige der Zeitleiste (Woche)
 -08- Anzeige der Zeitleiste (Jahr)
+
+- - - - - - - - - - - - - - - - -
+- - - V. Reisemöglichkeiten - - -
+- - - - - - - - - - - - - - - - -
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
 -10- Schaltfläche in Tabelle (Reise nach Warschau)
 -11- Schaltfläche in Tabelle (Reise nach Berlin)
@@ -105,37 +109,98 @@
 -20- Schaltfläche in Tabelle (Reise nach Ägypten)
 -21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
 -22- Schaltfläche in Tabelle (Reise nach Kreta)
+
+- - - - - - - - - - - - - - - -
+- - - VI. Forscherkarten - - - 
+- - - - - - - - - - - - - - - -
 -23- 4 Tabellen für Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
 -24- Schaltfläche (Forscherkarte 1 nehmen)
 -25- Schaltfläche (Forscherkarte 2 nehmen)
 -26- Schaltfläche (Forscherkarte 3 nehmen)
 -27- Schaltfläche (Forscherkarte 4 nehmen)
+
+- - - - - - - - - - - - - - - - - - 
+- - - VII. Ausstellungskarten - - - 
+- - - - - - - - - - - - - - - - - - 
 -28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
 -24- Schaltfläche (Ausstellungskarte 1 nehmen)
 -25- Schaltfläche (Ausstellungskarte 2 nehmen)
 -26- Schaltfläche (Ausstellungskarte 3 nehmen)
 -27- Schaltfläche (Ausstellungskarte 4 nehmen)
+
+- - - - - - - - - - - - - - 
+- - - VIII. Spielmenü - - - 
+- - - - - - - - - - - - - -
 -28- Anzeige (Spieler xx ist am Zug und macht xx)
 -29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
 -30- Anzeige (Grabungserfolg)
 -31- Anzeige (Grabungserlaubnis)
 -33- Anzeige (Ruhmpunkte)
+-39- Anzeige (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
 
+- - - - - - - - - - - - - - - 
+- - - IX. Spielerinfos - - -
 - - - - - - - - - - - - - - -
-- - - V. view_spielende - - -
-- - - - - - - - - - - - - - -
+-34- Anzeige (Spielername)
+-35- Anzeige (Gegnernamen)
+
+- - - - - - - - - - - - -
+- - - X. Highscore - - -
+- - - - - - - - - - - - 
 -34- Anzeige (Spielername)
 -35- Anzeige (Gegnernamen)
 -33- Anzeige (Ruhmpunkte)
 
-- - - - - - - - - - - - - - -
-- - - VI. view_account - - - -
-- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - -
+- - - XI. Account erstellen - - -
+- - - - - - - - - - - - - - - - -
 -01- Textfeld (für Username)
 -02- Textfeld (für Passwort)
 -38- Textfeld(Passwort bestätigen)
 -37- Textfeld (Email Adresse eingeben)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
+
+
+=================
+=== Ansichten ===
+=================
+
+- - - - - - - - - - -
+- - - view_index - - -
+- - - - - - - - - - - -
+I. Log In
+
+- - - - - - - - - - - - - -
+- - - view_startseite - - -
+- - - - - - - - - - - - - -
+II. Spielregeln
+III. Optionen beim Start
+
+- - - - - - - - - - - - - -
+- - - view_spielregeln - - -
+- - - - - - - - - - - - - -
+II. Spielregeln
+
+- - - - - - - - - - - - - - 
+- - - view_spielfeld - - - -
+- - - - - - - - - - - - - - 
+II. Spielregeln
+IV. Zeitleisten
+V. Reisemöglichkeiten
+VI. Forscherkarten
+VII. Ausstellungskarten
+VIII. Spielmenü
+IX. Spielerinfos
+
+- - - - - - - - - - - - - - -
+- - - V. view_spielende - - -
+- - - - - - - - - - - - - - -
+X. Highscore
+
+- - - - - - - - - - - - - - -
+- - - VI. view_account - - - -
+- - - - - - - - - - - - - - -
+XI. Account erstellen
 
 -->
 
