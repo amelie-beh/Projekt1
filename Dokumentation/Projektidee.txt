@@ -75,3 +75,9 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Werbeslogans u.ä.: 0 
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
+
+===================================
+=== Feedback Alpers, 2016-06-27 ===
+===================================
+
+Der Hinweis vom letzten Mal bezog sich auf das Thema Interaktion zwischen Mensch und Maschine. Hier ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
