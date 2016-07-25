@@ -81,3 +81,11 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 ===================================
 
 Der Hinweis vom letzten Mal bezog sich auf das Thema Interaktion zwischen Mensch und Maschine. Hier ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+===================================
+=== Feedback Alpers, 2016-07-25 ===
+===================================
+
+Leider keine Änderungen seit dem letzten Feedback. 
+
+Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachweises darin besteht, dass Sie kontinuierlich am Projekt arbeiten. Wie schon mehrfach erklärt gilt: Kontinuierliches Arbeiten bedeutet jede Woche am Projekt zu arbeiten. Und da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen. Wenn Sie weiterhin deutlich weniger am Projekt arbeiten, dann muss ich es auf der Basis des aktuellen Stands bewerten.
