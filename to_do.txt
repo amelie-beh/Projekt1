@@ -1,0 +1,8 @@
+To Do Liste
+
+- Log-In interessanter gestalten
+- Verwaltung für Admin hinzufügen
+- Notizen zum Spiel erweitern
+- -39- Tabelle für Inventar beschreiben
+- Tabellen für Forscherkarten und Ausstellungskarten besser beschreiben
+- mit dem Programmieren loslegen

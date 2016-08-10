@@ -19,8 +19,8 @@
 -04- Dropdownmenü (Anzahl Gegner)
 -05- Schaltfläche (Link zu den Spielregeln)
 -06- Schaltfläche ("Spiel starten", Link zur Spielseite)
--07- Anzeige der Zeitleiste (Woche)
--08- Anzeige der Zeitleiste (Jahr)
+-07- Text für Zeitleiste (Woche)
+-08- Text für Zeitleiste (Jahr)
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
 -10- Schaltfläche in Tabelle (Reise nach Warschau)
 -11- Schaltfläche in Tabelle (Reise nach Berlin)
@@ -41,24 +41,50 @@
 -26- Schaltfläche (Forscherkarte 3 nehmen)
 -27- Schaltfläche (Forscherkarte 4 nehmen)
 -28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
--24- Schaltfläche (Ausstellungskarte 1 nehmen)
--25- Schaltfläche (Ausstellungskarte 2 nehmen)
--26- Schaltfläche (Ausstellungskarte 3 nehmen)
--27- Schaltfläche (Ausstellungskarte 4 nehmen)
--28- Anzeige (Spieler xx ist am Zug und macht xx)
 -29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
--30- Anzeige (Grabungserfolg)
--31- Anzeige (Grabungserlaubnis)
--32- Anzeige (Spielregeln)
--33- Anzeige (Ruhmpunkte)
--34- Anzeige (Spielername)
--35- Anzeige (Gegnernamen)
+-30- Text (Grabungserfolg)
+-31- Text (Grabungserlaubnis)
+-32- Text (Spielregeln)
+-33- Text (Ruhmpunkte)
+-34- Text (Spielername)
+-35- Text (Gegnernamen)
 -36- Schaltfläche(Account erstellen)
 -37- Textfeld (Email Adresse eingeben)
--38- Textfeld(Passwort bestätigen)
--39- Anzeige (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
-
-
+-38- Textfeld (Passwort bestätigen)
+-39- Tabelle für Inventar (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
+-40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
+-41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
+-42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
+-43- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in London befindet)
+-44- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Rom befindet)
+-45- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Paris befindet)
+-46- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Moskau befindet)
+-47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
+-48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
+-49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
+-50- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Mesopotamien befindet)
+-51- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Kreta befindet)
+-52- Text ("Warschau")
+-53- Text ("Berlin")
+-54- Text ("Wien")
+-55- Text ("London")
+-56- Text ("Rom")
+-57- Text ("Paris")
+-58- Text ("Moskau")
+-59- Text ("Griechenland")
+-60- Text ("Palästina")
+-61- Text ("Ägypten")
+-62- Text ("Mesopotamien")
+-63- Text "Kreta")
+-64- Schaltfläche (Ausstellungskarte 1 nehmen)
+-65- Schaltfläche (Ausstellungskarte 2 nehmen)
+-66- Schaltfläche (Ausstellungskarte 3 nehmen)
+-67- Schaltfläche (Ausstellungskarte 4 nehmen)
+-68- Text (Spieler xx ist am Zug und macht xx)
+-69- Text ("Name")
+-70- Text ("Email")
+-71- Text ("Passwort")
+-72- Text ("Passwort bestätigen")
 
 
 ===============
@@ -68,15 +94,17 @@
 - - - - - - - - - - - 
 - - - I. Log In - - -
 - - - - - - - - - - - 
+-69- Text ("Name")
 -01- Textfeld (für Username)
+-71- Text ("Passwort")
 -02- Textfeld (für Passwort)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
 -36- Schaltfläche(Account erstellen, Link zur view_account)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 
 - - - - - - - - - - - - - - 
 - - - II. Spielregeln - - -
 - - - - - - - - - - - - - - 
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 -31- Anzeige (Spielregeln)
 
 - - - - - - - - - - - - - - - - - - 
@@ -85,17 +113,25 @@
 -04- Dropdownmenü (Anzahl Gegner)
 -03- Schaltfläche (Bestätigen)
 -06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 
 - - - - - - - - - - - - - -
 - - - IV. Zeitleisten - - - 
 - - - - - - - - - - - - - - 
--07- Anzeige der Zeitleiste (Woche)
--08- Anzeige der Zeitleiste (Jahr)
+-07- Text für Zeitleiste (Woche)
+-08- Text für Zeitleiste (Jahr)
 
 - - - - - - - - - - - - - - - - -
 - - - V. Reisemöglichkeiten - - -
 - - - - - - - - - - - - - - - - -
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
+-52- Text ("Warschau")
+-53- Text ("Berlin")
+-54- Text "Wien")
+-55- Text ("London")
+-56- Text ("Rom")
+-57- Text ("Paris")
+-58- Text ("Moskau")
 -10- Schaltfläche in Tabelle (Reise nach Warschau)
 -11- Schaltfläche in Tabelle (Reise nach Berlin)
 -12- Schaltfläche in Tabelle (Reise nach Wien)
@@ -103,17 +139,41 @@
 -14- Schaltfläche in Tabelle (Reise nach Rom)
 -15- Schaltfläche in Tabelle (Reise nach Paris)
 -16- Schaltfläche in Tabelle (Reise nach Moskau)
+-40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
+-41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
+-42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
+-43- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in London befindet)
+-44- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Rom befindet)
+-45- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Paris befindet)
+-46- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Moskau befindet)
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
+-59- Text ("Griechenland")
+-59- Text ("Palästina")
+-59- Text ("Ägypten")
+-59- Text ("Mesopotamien")
+-59- Text ("Kreta")
 -18- Schaltfläche in Tabelle (Reise nach Griechenland)
 -19- Schaltfläche in Tabelle (Reise nach Palästina)
 -20- Schaltfläche in Tabelle (Reise nach Ägypten)
 -21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
 -22- Schaltfläche in Tabelle (Reise nach Kreta)
+-47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
+-48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
+-49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
+-50- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Mesopotamien befindet)
+-51- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Kreta befindet)
 
 - - - - - - - - - - - - - - - -
 - - - VI. Forscherkarten - - - 
 - - - - - - - - - - - - - - - -
 -23- 4 Tabellen für Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+-52- Text ("Warschau")
+-53- Text ("Berlin")
+-54- Text "Wien")
+-55- Text ("London")
+-56- Text ("Rom")
+-57- Text ("Paris")
+-58- Text ("Moskau")
 -24- Schaltfläche (Forscherkarte 1 nehmen)
 -25- Schaltfläche (Forscherkarte 2 nehmen)
 -26- Schaltfläche (Forscherkarte 3 nehmen)
@@ -123,42 +183,52 @@
 - - - VII. Ausstellungskarten - - - 
 - - - - - - - - - - - - - - - - - - 
 -28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
--24- Schaltfläche (Ausstellungskarte 1 nehmen)
--25- Schaltfläche (Ausstellungskarte 2 nehmen)
--26- Schaltfläche (Ausstellungskarte 3 nehmen)
--27- Schaltfläche (Ausstellungskarte 4 nehmen)
+-59- Text ("Griechenland")
+-59- Text ("Palästina")
+-59- Text ("Ägypten")
+-59- Text ("Mesopotamien")
+-59- Text ("Kreta")
+-64- Schaltfläche (Ausstellungskarte 1 nehmen)
+-65- Schaltfläche (Ausstellungskarte 2 nehmen)
+-66- Schaltfläche (Ausstellungskarte 3 nehmen)
+-67- Schaltfläche (Ausstellungskarte 4 nehmen)
 
 - - - - - - - - - - - - - - 
 - - - VIII. Spielmenü - - - 
 - - - - - - - - - - - - - -
--28- Anzeige (Spieler xx ist am Zug und macht xx)
+-68- Text (Spieler xx ist am Zug und macht xx)
 -29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
--30- Anzeige (Grabungserfolg)
--31- Anzeige (Grabungserlaubnis)
--33- Anzeige (Ruhmpunkte)
+-30- Text (Grabungserfolg)
+-31- Text (Grabungserlaubnis)
+-33- Text (Ruhmpunkte)
 -39- Anzeige (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
 
 - - - - - - - - - - - - - - - 
 - - - IX. Spielerinfos - - -
 - - - - - - - - - - - - - - -
--34- Anzeige (Spielername)
--35- Anzeige (Gegnernamen)
+-34- Text (Spielername)
+-35- Text (Gegnernamen)
 
 - - - - - - - - - - - - -
 - - - X. Highscore - - -
 - - - - - - - - - - - - 
--34- Anzeige (Spielername)
--35- Anzeige (Gegnernamen)
--33- Anzeige (Ruhmpunkte)
+-34- Text (Spielername)
+-35- Text (Gegnernamen)
+-33- Text (Ruhmpunkte)
 
 - - - - - - - - - - - - - - - - -
 - - - XI. Account erstellen - - -
 - - - - - - - - - - - - - - - - -
+-69- Text ("Name")
 -01- Textfeld (für Username)
+-71- Text ("Passwort")
 -02- Textfeld (für Passwort)
+-72- Text ("Passwort bestätigen")
 -38- Textfeld(Passwort bestätigen)
+-70- Text ("Email")
 -37- Textfeld (Email Adresse eingeben)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
+-05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
 
 
 =================
