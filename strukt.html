@@ -13,11 +13,11 @@
 === strukturelle Elemente ===
 =============================
 
--01- Textfeld (für Username)
--02- Textfeld (für Passwort)
+-01- Label (für Username)
+-02- Label (für Passwort)
 -03- Schaltfläche (Bestätigen)
--04- Dropdownmenü (Anzahl Gegner)
--05- Schaltfläche (Link zu den Spielregeln)
+-04- Radio Button (Anzahl Gegner)
+-05- Link (Link zu den Spielregeln)
 -06- Schaltfläche ("Spiel starten", Link zur Spielseite)
 -07- Text für Zeitleiste (Woche)
 -08- Text für Zeitleiste (Jahr)
@@ -48,7 +48,7 @@
 -33- Text (Ruhmpunkte)
 -34- Text (Spielername)
 -35- Text (Gegnernamen)
--36- Schaltfläche(Account erstellen)
+-36- Link (Account erstellen)
 -37- Textfeld (Email Adresse eingeben)
 -38- Textfeld (Passwort bestätigen)
 -39- Tabelle für Inventar (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
@@ -81,10 +81,11 @@
 -66- Schaltfläche (Ausstellungskarte 3 nehmen)
 -67- Schaltfläche (Ausstellungskarte 4 nehmen)
 -68- Text (Spieler xx ist am Zug und macht xx)
--69- Text ("Name")
+-69- FREE
 -70- Text ("Email")
--71- Text ("Passwort")
+-71- FREE
 -72- Text ("Passwort bestätigen")
+-73- Überschrift ("Log In")
 
 
 ===============
@@ -94,13 +95,12 @@
 - - - - - - - - - - - 
 - - - I. Log In - - -
 - - - - - - - - - - - 
--69- Text ("Name")
--01- Textfeld (für Username)
--71- Text ("Passwort")
--02- Textfeld (für Passwort)
+-73- Überschrift ("Log In")
+-01- Label (für Username)
+-02- Label(für Passwort)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
--36- Schaltfläche(Account erstellen, Link zur view_account)
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+-36- Link (Account erstellen, Link zur view_account)
+-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
 
 - - - - - - - - - - - - - - 
 - - - II. Spielregeln - - -
@@ -110,10 +110,9 @@
 - - - - - - - - - - - - - - - - - - 
 - - - III. Optionen beim Start - - -
 - - - - - - - - - - - - - - - - - -
--04- Dropdownmenü (Anzahl Gegner)
--03- Schaltfläche (Bestätigen)
+-04- Radio Button (Anzahl Gegner)
 -06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
 
 - - - - - - - - - - - - - -
 - - - IV. Zeitleisten - - - 
@@ -228,7 +227,7 @@
 -70- Text ("Email")
 -37- Textfeld (Email Adresse eingeben)
 -03- Schaltfläche (Bestätigen, Link zu view_startseite)
--05- Schaltfläche (Anzeige Spielregeln, Link zu view_spielregeln)
+-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
 
 
 =================
@@ -243,7 +242,6 @@ I. Log In
 - - - - - - - - - - - - - -
 - - - view_startseite - - -
 - - - - - - - - - - - - - -
-II. Spielregeln
 III. Optionen beim Start
 
 - - - - - - - - - - - - - -
@@ -254,7 +252,6 @@ II. Spielregeln
 - - - - - - - - - - - - - - 
 - - - view_spielfeld - - - -
 - - - - - - - - - - - - - - 
-II. Spielregeln
 IV. Zeitleisten
 V. Reisemöglichkeiten
 VI. Forscherkarten

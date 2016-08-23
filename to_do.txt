@@ -5,4 +5,5 @@ To Do Liste
 - Notizen zum Spiel erweitern
 - -39- Tabelle für Inventar beschreiben
 - Tabellen für Forscherkarten und Ausstellungskarten besser beschreiben
-- mit dem Programmieren loslegen
+- Spielregeln überarbeiten
+- view_account, view_spielende, view_spielfeld
