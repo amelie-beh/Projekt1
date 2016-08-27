@@ -5,6 +5,37 @@
 			<title></title>
 	</head>
 		<body>
+			<main>
+			<!--
+				- - - - - - - - - - - - - - - - -
+				- - - XI. Account erstellen - - -
+				- - - - - - - - - - - - - - - - -
+				-01- Label (für Username)
+				-02- Label (für Passwort)
+				-38- Label (Passwort bestätigen)
+				-37- Label (Email Adresse eingeben)
+				-03- Schaltfläche (Bestätigen, Link zu view_startseite)
+				-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
+			-->
+				<h1>Account erstellen</h1>
+				<!--Formular muss Eintragung in Datenbank für diesen Spieler übernehmen-->
+				<form>
+						<p><label for="name">Name: <input id=name name=name> </label></p>
+						<p><label for="pw">Passwort: <input id=pw name=pw> </label></p>
+						<p><label for="pw2">Passwort bestätigen: <input id=pw2 name=pw2> </label></p> <!-- Überprüfung ob beide PWs übereinstimmen-->
+						<p><label for="email">EMail: <input id=email name=email> </label></p>
+					</form>
+				
+					<form action=view_startseite.html target=_self>
+						<p><input type=submit value=Bestätigen></p>
+					</form>
+					
+						<p><a href=view_spielregeln.html>Spielregeln</a></p>
+			</main>
+			
+			<footer>
+				HAW Hamburg | Projekt A | Betreuer: Markus Alpers | Studierende: Amelie Behrendt
+			</footer>	
 				
 		</body>
 </html>
