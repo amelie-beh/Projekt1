@@ -6,4 +6,4 @@ To Do Liste
 - -39- Tabelle für Inventar beschreiben
 - Tabellen für Forscherkarten und Ausstellungskarten besser beschreiben
 - Spielregeln überarbeiten
-- view_spielende, view_spielfeld
+- view_spielfeld
