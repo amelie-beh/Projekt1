@@ -10,12 +10,20 @@
 				- - - - - - - - - - - - - - - - -
 				- - - XI. Account erstellen - - -
 				- - - - - - - - - - - - - - - - -
+				-71- Überschrift ("Account erstellen")
+				-74- Absatz
 				-01- Label (für Username)
+				-74- Absatz
 				-02- Label (für Passwort)
+				-74- Absatz
 				-38- Label (Passwort bestätigen)
+				-74- Absatz
 				-37- Label (Email Adresse eingeben)
+				-74- Absatz
 				-03- Schaltfläche (Bestätigen, Link zu view_startseite)
+				-74- Absatz
 				-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
+				
 			-->
 				<h1>Account erstellen</h1>
 				<!--Formular muss Eintragung in Datenbank für diesen Spieler übernehmen-->
@@ -33,10 +41,7 @@
 						<p><a href=view_spielregeln.html>Spielregeln</a></p>
 			</main>
 			
-			<p><!--Leerzeichen--></p>
-			<footer>
-				HAW Hamburg | Projekt A | Betreuer: Markus Alpers | Studierende: Amelie Behrendt
-			</footer>	
-				
+			<?php include ("Gruppen_de/footer.html"); ?>		
+			
 		</body>
 </html>

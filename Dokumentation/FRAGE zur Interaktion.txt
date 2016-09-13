@@ -1,0 +1,5 @@
+Frage zur Interaktion:
+
+Ist dann mit Interaktion gemeint, dass ein Computergegner z.B. dem Spieler nachläuft und diesem dann die Forscherkarten zum jeweiligen Ort z.B. "wegnimmt"?
+Ansonsten wüsste ich nicht, wie die Computergegner auf die Spielzüge des Spielers reagieren sollen, da bei dem Spiel das Ziel ist,
+möglichst viele Punkte für sich selbst zu sammeln und dort keine wirkliche Interaktion zwischen den Spielern statt findet.

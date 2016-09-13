@@ -52,12 +52,8 @@
 				</tr>
 			</table>
 			
-			</main>
+			<?php include ("Gruppen_de/footer.html"); ?>
 			
-			<p><!--Leerzeichen--></p>
-			<footer>
-				HAW Hamburg | Projekt A | Betreuer: Markus Alpers | Studierende: Amelie Behrendt
-			</footer>
-				
+			</main>
 		</body>
 </html>

@@ -10,8 +10,15 @@
 				- - - - - - - - - - - - - - - - - - 
 				- - - III. Optionen beim Start - - -
 				- - - - - - - - - - - - - - - - - -
+				-74- Absatz
 				-04- Radio Button (Anzahl Gegner)
+				-74- Absatz
+				-04- Radio Button (Anzahl Gegner)
+				-74- Absatz
+				-04- Radio Button (Anzahl Gegner)
+				-74- Absatz
 				-06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
+				-74- Absatz
 				-05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
 			-->
 				<form>
@@ -28,10 +35,7 @@
 						<p><a href=view_spielregeln.html>Spielregeln</a></p>
 			</main>
 			
-			<p><!--Leerzeichen--></p>
-			<footer>
-				HAW Hamburg | Projekt A | Betreuer: Markus Alpers | Studierende: Amelie Behrendt
-			</footer>
+			<?php include ("Gruppen_de/footer.html"); ?>
 				
 		</body>
 </html>

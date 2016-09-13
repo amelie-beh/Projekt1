@@ -11,7 +11,11 @@
 				- - - II. Spielregeln - - -
 				- - - - - - - - - - - - - - 
 				-70- Überschrift ("Spielregeln")
-				-32- Text mit Absätzen (Spielregeln)
+				-75- h2 Überschrift ("Spielablauf")
+				-32- Text mit Absätzen
+				-76- h2 Überschrift ("Spielende")
+				-32- Text mit Absätzen
+				-74- Absatz
 			-->
 				<h1>Spielregeln</h1>
 				<h2>Spielablauf:</h2>
@@ -26,9 +30,7 @@
 				<p>- Alle Ruhmespunkte (Ausstellungen, Fundstücke und Vortragskarten) werden zusammengezählt und es gewinnt der Spieler mit den meisten Punkten.</p>
 			</main>
 			
-			<p><!--Leerzeichen--></p>			
-			<footer>
-				HAW Hamburg | Projekt A | Betreuer: Markus Alpers | Studierende: Amelie Behrendt
-			</footer>	
+			<?php include ("Gruppen_de/footer.html"); ?>
+			
 		</body>
 </html>
