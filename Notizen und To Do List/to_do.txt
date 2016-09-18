@@ -1,9 +1,13 @@
-To Do Liste
+﻿To Do Liste
 
 - Log-In interessanter gestalten
 - Verwaltung für Admin hinzufügen
 - Notizen zum Spiel erweitern
 - -39- Tabelle für Inventar beschreiben
-- Tabellen für Forscherkarten und Ausstellungskarten besser beschreiben
 - Spielregeln überarbeiten
 - view_spielfeld
+	-> Spielmenü
+	-> Spielerinfos
+- function_takeresearchcard.php Funktion schreiben
+- function_travel.php Funktion schreiben
+- function_takeexpositioncard.php Funktion schreiben
