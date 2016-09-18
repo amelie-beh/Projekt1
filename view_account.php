@@ -34,11 +34,11 @@
 						<p><label for="email">EMail: <input id=email name=email> </label></p>
 					</form>
 				
-					<form action=view_startseite.html target=_self>
+					<form action=view_startseite.php target=_self>
 						<p><input type=submit value=Bestätigen></p>
 					</form>
 					
-						<p><a href=view_spielregeln.html>Spielregeln</a></p>
+						<p><a href=view_spielregeln.php>Spielregeln</a></p>
 			</main>
 			
 			<?php include ("Gruppen_de/footer.html"); ?>		

@@ -29,10 +29,10 @@
 				</form>
 				
 				<!-- Spieleranzahl je nach Auswahl verändern -->
-				<form action=view_spielfeld.html target=_self>
+				<form action=view_spielfeld.php target=_self>
 						<p><input type=submit value=Starten></p>
 				</form>
-						<p><a href=view_spielregeln.html>Spielregeln</a></p>
+						<p><a href=view_spielregeln.php>Spielregeln</a></p>
 			</main>
 			
 			<?php include ("Gruppen_de/footer.html"); ?>

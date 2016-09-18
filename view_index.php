@@ -29,12 +29,12 @@
 					</form>
 				
 					<!-- if-Abfrage ob Nutzername und Passwort übereinstimmt -->
-					<form action=view_startseite.html target=_self>
+					<form action=view_startseite.php target=_self>
 						<p><input type=submit value=Bestätigen></p>
 					</form>
 					
-						<p><a href=view_spielregeln.html>Spielregeln</a></p>
-						<p><a href=view_account.html>Account erstellen</a></p>
+						<p><a href=view_spielregeln.php>Spielregeln</a></p>
+						<p><a href=view_account.php>Account erstellen</a></p>
 					
 			</main>
 			
