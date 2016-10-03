@@ -8,6 +8,8 @@
 - view_spielfeld
 	-> Spielmenü
 	-> Spielerinfos
-- function_takeresearchcard.php Funktion schreiben
-- function_travel.php Funktion schreiben
-- function_takeexpositioncard.php Funktion schreiben
+- Funktionen in PHP
+	-> function_takeresearchcard.php
+	-> function_travel.php 
+	-> function_takeexpositioncard.php
+	-> function_playersturn.php
