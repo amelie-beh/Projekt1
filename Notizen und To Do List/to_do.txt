@@ -3,13 +3,12 @@
 - Log-In interessanter gestalten
 - Verwaltung für Admin hinzufügen
 - Notizen zum Spiel erweitern
-- -39- Tabelle für Inventar beschreiben
 - Spielregeln überarbeiten
-- view_spielfeld
-	-> Spielmenü
-	-> Spielerinfos
 - Funktionen in PHP
 	-> function_takeresearchcard.php
 	-> function_travel.php 
 	-> function_takeexpositioncard.php
 	-> function_playersturn.php
+	-> spielmenü und spielerinfos
+- Menü für Ausgrabung erstellen
+- Grabungsplättchen in Strukt einbringen (Voraussetzungen fehlen zum Beispiel)

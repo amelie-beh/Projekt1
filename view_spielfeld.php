@@ -433,6 +433,20 @@
 				
 				<!-- Inventar wird über PHP generiert. Hierbei wird von der DB bezogen, welche Forscherkarten und Ausstellungskarten der Spieler besitzt.. Diese werden als Tabelle angezeigt -->
 				
+			<!--
+			- - - - - - - - - - - - - - - 
+			- - - IX. Spielerinfos - - -
+			- - - - - - - - - - - - - - -
+			-34- PHP Echo (Spielername)
+			-35- PHP Echo (Gegnernamen)
+
+			-->
+
+				<!--
+					Username aus Log-In Formular oder aus der Datenbank per PHP holen
+					Gegnernamen je nach Spieleranzahl per PHP generieren
+				-->
+				
 			</main>
 			
 			<?php include ("Gruppen_de/footer.html"); ?>
