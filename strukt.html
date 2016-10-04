@@ -362,3 +362,75 @@ Wertung 4: Gruppierungen: 5 / 5
 Wertung 5: Ansichten: 3 / 5
 - für jede sinnvolle Ansicht: 1
 -->
+
+<!--
+===================================
+=== Feedback Alpers, 2016-06-27 ===
+===================================
+
+== 1.) Strukturelle Elemente ==
+
+= 1.1.) =
+Leider machen Sie es zu umständlich:
+
+-10- Schaltfläche in Tabelle (Reise nach Warschau)
+-11- Schaltfläche in Tabelle (Reise nach Berlin)
+-12- Schaltfläche in Tabelle (Reise nach Wien)
+-13- Schaltfläche in Tabelle (Reise nach London)
+-14- Schaltfläche in Tabelle (Reise nach Rom)
+-15- Schaltfläche in Tabelle (Reise nach Paris)
+-16- Schaltfläche in Tabelle (Reise nach Moskau)
+
+sollten Sie besser zusammenfassen zu:
+
+-10- 7 x Schaltfläche in Tabelle (Reise nach Warschau / Berline / Wien / London / Rom / Paris / Moskau)
+
+= 1.2.) =
+-40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
+
+Es gibt kein strukturelles Element "leeres Feld". In diesem Teil des Projekts geht es darum, zu definieren, welche Elemente es geben soll.
+
+= 1.3.) =
+-78- PHP Funktion (Ermittlung der Wochen)
+
+Das ist kein strukturelles Element, sondern ein Programmteil, der evtl. den Inhalt eines strukturellen Elements ändern kann.
+
+Wertung 3: Ausarbeitung der strukt. Elem.: gesamt: 5 / 10
+- Knappe Form: 3
+- Für unterschiedl. strukt. Elem (keine Gruppierungen): 2
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw.: bis -2
+
+== 2.) Gruppen ==
+
+= 2.1.) =
+- - - I. Log In - - -
+- - - XI. Account erstellen - - -
+
+Hier haben Sie zwar (vollkommen richtig) die Labels aufgenommen, aber die Eingabefelder fehlen noch.
+
+= 2.2.) =
+- - - III. Optionen beim Start - - -
+
+a) Dieser Name ist schlecht geeignet, um daraus einen Dateinamen abzuleiten. Ändern Sie ihn bitte ab.
+b) Sie haben hier das Formular vergessen. (Radio Buttons machen nur in einem Formular Sinn.)
+
+== 3.) Ansichten ==
+
+= 3.1.) =
+Bei den meisten Ansichten haben Spieler nicht die Möglichkeit,
+- sich einzuloggen,
+- sich zu registrieren,
+- sich abzumelden.
+
+= 3.2.) =
+Außerdem sind viele der Ansichten Sackgassen, sprich es fehlt die Verlinkung auf andere Seiten.
+
+== Umsetzung in HTML ==
+
+Leider haben Sie bislang nur die Gruppe Footer in ein HTML-Dokument umgesetzt. Programmieren Sie keinesfalls eine Gruppe in Form einer Ansicht, sondern alle Gruppen als eigenständige Dokumente, die Sie dann in die Ansichten includen.
+
+Weiter haben Sie kein PHP genutzt, um die Tabellen generieren zu lassen, sondern jede einzelne Zelle vollständig manuell umgesetzt.
+
+=== Zusammenfassung ===
+Sie haben zum überwiegenden Teil Zeit fürs Tippen von überflüssigen Zeilen verwendet. Das ist ausgesprochen schade und eben auch gerade nicht das, worum es in diesem Projekt bzw. generell in der Informatik geht: Hier geht es darum, eine effektive Planung durchzuführen, die es uns ermöglicht, unser Projekt später mit möglichst geringem Aufwand zu erweitern, abzuändern und Fehlerkorrekturen durchzuführen.
+-->
