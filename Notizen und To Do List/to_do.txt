@@ -10,6 +10,7 @@
 	-> function_takeexpositioncard.php
 	-> function_playersturn.php
 	-> function_login.php
+	-> function_startgame.php
 	-> spielmenü und spielerinfos
 - Menü für Ausgrabung erstellen
 - Grabungsplättchen in Strukt einbringen (Voraussetzungen fehlen zum Beispiel)

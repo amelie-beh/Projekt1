@@ -6,7 +6,7 @@
 	</head>
 		<body>
 			<main>
-				<?php include ("Gruppen_de/optionen_beim_start.php"); ?>
+				<?php include ("Gruppen_de/neues_spiel.php"); ?>
 			</main>
 			
 			<?php include ("Gruppen_de/footer.html"); ?>
