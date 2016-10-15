@@ -11,6 +11,7 @@
 	-> function_playersturn.php
 	-> function_login.php
 	-> function_startgame.php
+	-> function_newaccount.php
 	-> spielmenü und spielerinfos
 - Menü für Ausgrabung erstellen
 - Grabungsplättchen in Strukt einbringen (Voraussetzungen fehlen zum Beispiel)
