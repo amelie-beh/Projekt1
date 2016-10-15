@@ -19,19 +19,19 @@
 -04- Input / Radio Button
 -05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 -06- 3x Label / 1, 2, 3
--07- Text für Zeitleiste (Woche)
--08- Text für Zeitleiste (Jahr)
+-07- PHP Ausgabe mit Echo (Wochen)
+-08- PHP Ausgabe mit Echo (Jahre)
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
 -10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
 -11- Formular
 -12- Input / name
 -13- Input / pw
--14- 
+-14- 7x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in der Stadt befindet
 -15- Formular / Action ruft PHP Funktion auf
 -16- 
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
 -18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
--19- 
+-19- 5x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in dem Land befindet
 -20- 
 -21- 
 -22- 
@@ -52,30 +52,30 @@
 -37- Label (Email Adresse eingeben)
 -38- Label (Passwort bestätigen)
 -39- PHP Ausgabe mit echo / Tabelle (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
--40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
--41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
--42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
--43- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in London befindet)
--44- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Rom befindet)
--45- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Paris befindet)
--46- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Moskau befindet)
--47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
--48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
--49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
--50- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Mesopotamien befindet)
--51- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Kreta befindet)
--52- Text ("Warschau")
--53- Text ("Berlin")
--54- Text ("Wien")
--55- Text ("London")
--56- Text ("Rom")
--57- Text ("Paris")
--58- Text ("Moskau")
--59- Text ("Griechenland")
--60- Text ("Palästina")
--61- Text ("Ägypten")
--62- Text ("Mesopotamien")
--63- Text "Kreta")
+-40- 
+-41- 
+-42- 
+-43- 
+-44- 
+-45- 
+-46- 
+-47- 
+-48- 
+-49- 
+-50- 
+-51- 
+-52- 
+-53- 
+-54- 
+-55- 
+-56- 
+-57- 
+-58- 
+-59- 
+-60- 
+-61- 
+-62- 
+-63- 
 -64- 4x Schaltfläche (Ausstellungskarte 1 nehmen, Ausstellungskarte 2 nehmen, Ausstellungskarte 3 nehmen, Ausstellungskarte 4 nehmen)
 -65- 
 -66- 
@@ -134,40 +134,20 @@
 - - - - - - - - - - - - - -
 - - - IV. Zeitleisten - - - 
 - - - - - - - - - - - - - - 
--07- Text für Zeitleiste (Woche)
--08- Text für Zeitleiste (Jahr)
+-07- PHP Ausgabe mit Echo (Wochen)
+-08- PHP Ausgabe mit Echo (Jahre)
 
 - - - - - - - - - - - - - - - - -
 - - - V. Reisemöglichkeiten - - -
 - - - - - - - - - - - - - - - - -
+-15- Formular / Action ruft PHP Funktion auf
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
--52- Text ("Warschau")
--53- Text ("Berlin")
--54- Text "Wien")
--55- Text ("London")
--56- Text ("Rom")
--57- Text ("Paris")
--58- Text ("Moskau")
 -10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
--40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
--41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
--42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
--43- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in London befindet)
--44- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Rom befindet)
--45- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Paris befindet)
--46- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Moskau befindet)
+-14- 7x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in der Stadt befindet
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
--59- Text ("Griechenland")
--59- Text ("Palästina")
--59- Text ("Ägypten")
--59- Text ("Mesopotamien")
--59- Text ("Kreta")
 -18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
--47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
--48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
--49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
--50- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Mesopotamien befindet)
--51- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Kreta befindet)
+-19- 5x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in dem Land befindet
+
 
 - - - - - - - - - - - - - - - -
 - - - VI. Forscherkarten - - - 

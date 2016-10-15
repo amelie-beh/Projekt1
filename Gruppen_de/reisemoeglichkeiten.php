@@ -2,44 +2,13 @@
 - - - - - - - - - - - - - - - - -
 - - - V. Reisemöglichkeiten - - -
 - - - - - - - - - - - - - - - - -
+	-15- Formular / Action ruft PHP Funktion auf
 	-09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
-	-52- Text ("Warschau")
-	-53- Text ("Berlin")
-	-54- Text "Wien")
-	-55- Text ("London")
-	-56- Text ("Rom")
-	-57- Text ("Paris")
-	-58- Text ("Moskau")
-	-10- Schaltfläche in Tabelle (Reise nach Warschau)
-	-11- Schaltfläche in Tabelle (Reise nach Berlin)
-	-12- Schaltfläche in Tabelle (Reise nach Wien)
-	-13- Schaltfläche in Tabelle (Reise nach London)
-	-14- Schaltfläche in Tabelle (Reise nach Rom)
-	-15- Schaltfläche in Tabelle (Reise nach Paris)
-	-16- Schaltfläche in Tabelle (Reise nach Moskau)
-	-40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
-	-41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
-	-42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
-	-43- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in London befindet)
-	-44- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Rom befindet)
-	-45- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Paris befindet)
-	-46- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Moskau befindet)
+	-10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
+	-14- 7x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in der Stadt befindet
 	-17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
-	-59- Text ("Griechenland")
-	-59- Text ("Palästina")
-	-59- Text ("Ägypten")
-	-59- Text ("Mesopotamien")
-	-59- Text ("Kreta")
-	-18- Schaltfläche in Tabelle (Reise nach Griechenland)
-	-19- Schaltfläche in Tabelle (Reise nach Palästina)
-	-20- Schaltfläche in Tabelle (Reise nach Ägypten)
-	-21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
-	-22- Schaltfläche in Tabelle (Reise nach Kreta)
-	-47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
-	-48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
-	-49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
-	-50- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Mesopotamien befindet)
-	-51- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Kreta befindet)
+	-18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
+	-19- 5x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in dem Land befindet
 -->
 
 	<!-- function_travel muss noch geschrieben werden-->

@@ -2,11 +2,12 @@
 	- - - - - - - - - - - - - -
 	- - - IV. Zeitleisten - - - 
 	- - - - - - - - - - - - - - 
-	-07- Text für Zeitleiste (Woche)
-	-78- PHP Funktion (Ermittlung der Wochen)
-	-08- Text für Zeitleiste (Jahr)
-	-79- PHP Funktion (Ermittlung der Jahre)
+	-07- PHP Ausgabe mit Echo (Wochen)
+	-08- PHP Ausgabe mit Echo (Jahre)
 --->
 			
-Woche: <!-- PHP Funktion (Ermittlung der Wochen) -->
-Jahr: <!-- PHP Funktion (Ermittlung der Jahre) -->
+
+<?php
+	echo "Wochen: "; // PHP Funktion (Ermittlung der Wochen)
+	echo "Jahre: "; // PHP Funktion (Ermittlung der Jahre)
+?>

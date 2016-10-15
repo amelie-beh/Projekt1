@@ -19,7 +19,8 @@
 		<label for="pw">Passwort: <input id=pw name=pw> </label>
 	</form>
 				
-	<!-- function_login muss noch geschrieben werden (soll überprüfen, ob Login Daten mit Datenbank Daten übereinstimmen -->	
+	<!-- function_login muss noch geschrieben werden (soll überprüfen, ob Login Daten mit Datenbank Daten übereinstimmen,
+		sowie das Login In Formular entfernen und stattdessen den Usernamen anzeigen, sowie einen Button "neues Spiel" -->	
 	<form action=function_login.php method=POST>
 		<input type=submit value=Einloggen name=login />
 	</form>
