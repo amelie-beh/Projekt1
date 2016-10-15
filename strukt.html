@@ -13,21 +13,21 @@
 === strukturelle Elemente ===
 =============================
 
--01- Label (für Username)
--02- Label (für Passwort)
--03- Schaltfläche (Bestätigen)
+-01- Label / Username:
+-02- Label / Passwort:
+-03- Input / login
 -04- Radio Button (Anzahl Gegner)
--05- Link (Link zu den Spielregeln)
+-05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 -06- Schaltfläche ("Spiel starten", Link zur Spielseite)
 -07- Text für Zeitleiste (Woche)
 -08- Text für Zeitleiste (Jahr)
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
 -10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
--11- 
--12- 
--13- 
--14- 
--15- 
+-11- Formular
+-12- Input / name
+-13- Input / pw
+-14- Input / Bestätigen
+-15- Formular / Action ruft PHP Funktion auf
 -16- 
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
 -18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
@@ -48,7 +48,7 @@
 -33- PHP Ausgabe mit echo (Ruhmpunkte)
 -34- Text (Spielername)
 -35- Text (Gegnernamen)
--36- Link (Account erstellen)
+-36- Link / Registrieren, Link zu view_account
 -37- Label (Email Adresse eingeben)
 -38- Label (Passwort bestätigen)
 -39- PHP Ausgabe mit echo / Tabelle (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
@@ -99,15 +99,19 @@
 - - - - - - - - - - - - -
 - - - I. Navigation - - -
 - - - - - - - - - - - - -
--01- Label (für Username)
+-11- Formular
+-01- Label / Username:
+-12- Input / name
 -74- Absatz
--02- Label(für Passwort)
+-02- Label / Passwort:
+-13- Input / pw
 -74- Absatz
--03- Schaltfläche (Bestätigen, Link zu view_startseite)
+-15- Formular / Action ruft PHP Funktion auf
+-03- Input / login
 -74- Absatz
--36- Link (Account erstellen, Link zur view_account)
+-36- Link / Registrieren, Link zu view_account
 -74- Absatz
--05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
+-05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 
 - - - - - - - - - - - - - - 
 - - - II. Spielregeln - - -
@@ -131,7 +135,7 @@
 -74- Absatz
 -06- Schaltfläche ("Spiel starten", Link zu view_spielfeld)
 -74- Absatz
--05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
+-05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 
 - - - - - - - - - - - - - -
 - - - IV. Zeitleisten - - - 
@@ -213,17 +217,17 @@
 - - - - - - - - - - - - - - - - -
 -71- Überschrift ("Account erstellen")
 -74- Absatz
--01- Label (für Username)
+-01- Label / Username:
 -74- Absatz
--02- Label (für Passwort)
+-02- Label / Passwort:
 -74- Absatz
 -38- Label (Passwort bestätigen)
 -74- Absatz
 -37- Label (Email Adresse eingeben)
 -74- Absatz
--03- Schaltfläche (Bestätigen, Link zu view_startseite)
+-03- Input / login
 -74- Absatz
--05- Link (Anzeige Spielregeln, Link zu view_spielregeln)
+-05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 
 - - - - - - - - - - - -
 - - - XII. Footer - - -
