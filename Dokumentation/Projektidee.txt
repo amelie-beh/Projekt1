@@ -1,17 +1,16 @@
 ============================================================
-=== Überarbeitung der Projektidee amelie-beh, 2016-05-24 ===
+=== Überarbeitung der Projektidee amelie-beh, 2016-10-15 ===
 ============================================================
 
 Auf Grundlage des Brettspiels "Jenseits von Theben" http://www.brettspiele-report.de/jenseits-von-theben/
 In dem Spiel geht es darum als Archäologe durch Europa zu reisen und Fundstücke zu finden.
 Diese Fundstücke bringen Ruhmpunkte. Der Spieler mit den meisten Rumpunkten gewinnt.
 
-Der Anwender kann zwischen ein, zwei und drei Gegnern auswählen.
-
 Die Webanwendung hat folgende Aufgaben:
-- Sie steuert die Gegner des Anwenders
-	- Diese sollen einen gewissen Intelligenzgrad besitzen, sodass das Spiel nicht allzu leicht für den Anwender ist
-	- Sie wählt die Aktion aus, die am wenigstens Wochen braucht (bei Gleichstand -> Zufall)
+- Sie steuert die Gegner des Anwenders, hier gibt es drei Arten von Gegnern:
+	1. Der Gegner wählt die Aktion aus, die am wenigsten Wochen verbraucht.
+	2. Der Gegner wählt die Aktion aus, die ihm am meisten Ruhmespunkte benötigt.
+	3. Der Gegner versucht den Spieler zu ärgern und versucht ihm hinterherzulaufen und so die Punkte wegzuschnappen.
 - Sie zeigt die Züge des/der Gegner/s an
 - Sie weist die Spielzüge zu
 - Sie rechnet die Anzeige der Zeitsteine und der Jahressteine aus
@@ -26,6 +25,19 @@ Die Webanwendung hat folgende Aufgaben:
 - Sie rechnet die Ruhmpunkte am Ende des Spieles zusammen und teilt den Gewinner mit
 - Sie gewährt dem Spieler durch einen Log-In Zutritt
 - Sie speichert den aktuellen Spielstand des Anwenders, falls dieser zu einem späteren Zeitpunkt weiter spielen möchte
+
+Startseite
+Auf der Startseite kann der Benutzer sich einloggen, registrieren, sich die Spielregeln anschauen und sich einen Überblick über das Spielfeld verschaffen.
+Die Spielregeln werden hierbei in einem gesonderten Fenster geöffnet, damit der Spieler jederzeit auf die Spielregeln zugreifen kann.
+
+Account erstellen
+Der Nutzer kann sich einen Account erstellen, in dem der aktuelle Stand des Spieles gespeichert wird, falls der Spieler die Spielpartie unterbrechen muss.
+
+Neues Spiel
+Der Anwender kann zwischen ein, zwei und drei Gegnern auswählen. Die Art wie die Gegner interagieren, wird dabei zufällig ausgewählt.
+
+Spielende
+Am Spielende wird eine Highscore angezeigt. Hier hat der Spieler die Möglichkeit ein neues Spiel zu starten.
 
 ============================================================
 === Überarbeitung der Projektidee amelie-beh, 2016-04-07 ===
