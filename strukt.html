@@ -22,24 +22,24 @@
 -07- Text für Zeitleiste (Woche)
 -08- Text für Zeitleiste (Jahr)
 -09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
--10- Schaltfläche in Tabelle (Reise nach Warschau)
--11- Schaltfläche in Tabelle (Reise nach Berlin)
--12- Schaltfläche in Tabelle (Reise nach Wien)
--13- Schaltfläche in Tabelle (Reise nach London)
--14- Schaltfläche in Tabelle (Reise nach Rom)
--15- Schaltfläche in Tabelle (Reise nach Paris)
--16- Schaltfläche in Tabelle (Reise nach Moskau)
+-10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
+-11- 
+-12- 
+-13- 
+-14- 
+-15- 
+-16- 
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
--18- Schaltfläche in Tabelle (Reise nach Griechenland)
--19- Schaltfläche in Tabelle (Reise nach Palästina)
--20- Schaltfläche in Tabelle (Reise nach Ägypten)
--21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
--22- Schaltfläche in Tabelle (Reise nach Kreta)
+-18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
+-19- 
+-20- 
+-21- 
+-22- 
 -23- 4 Tabellen für Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
--24- Schaltfläche (Forscherkarte 1 nehmen)
--25- Schaltfläche (Forscherkarte 2 nehmen)
--26- Schaltfläche (Forscherkarte 3 nehmen)
--27- Schaltfläche (Forscherkarte 4 nehmen)
+-24- 4x Schaltfläche (Forscherkarte 1 nehmen, Forscherkarte 2 nehmen, Forscherkarte 3 nehmen, Forscherkarte 4 nehmen)
+-25- 
+-26- 
+-27- 
 -28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
 -29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
 -30- PHP Ausgabe mit echo (Grabungserfolg)
@@ -76,12 +76,12 @@
 -61- Text ("Ägypten")
 -62- Text ("Mesopotamien")
 -63- Text "Kreta")
--64- Schaltfläche (Ausstellungskarte 1 nehmen)
--65- Schaltfläche (Ausstellungskarte 2 nehmen)
--66- Schaltfläche (Ausstellungskarte 3 nehmen)
--67- Schaltfläche (Ausstellungskarte 4 nehmen)
+-64- 4x Schaltfläche (Ausstellungskarte 1 nehmen, Ausstellungskarte 2 nehmen, Ausstellungskarte 3 nehmen, Ausstellungskarte 4 nehmen)
+-65- 
+-66- 
+-67- 
 -68- Text (Spieler xx ist am Zug und macht xx)
--69- Überschrift ("Log In")
+-69- 
 -70- Überschrift ("Spielregeln")
 -71- Überschrift ("Account erstellen")
 -72- Überschrift ("Und der Gewinner ist...")
@@ -90,19 +90,15 @@
 -75- h2 Überschrift ("Spielablauf")
 -76- h2 Überschrift ("Spielende")
 -77- Footer (Informationen zum Projekt)
--78- PHP Funktion (Ermittlung der Wochen)
--79- PHP Funktion (Ermittlung der Jahre)
 
 
 ===============
 === Gruppen ===
 ===============
 
-- - - - - - - - - - - 
-- - - I. Log In - - -
-- - - - - - - - - - - 
--69- Überschrift ("Log In")
--74- Absatz
+- - - - - - - - - - - - -
+- - - I. Navigation - - -
+- - - - - - - - - - - - -
 -01- Label (für Username)
 -74- Absatz
 -02- Label(für Passwort)
@@ -141,9 +137,7 @@
 - - - IV. Zeitleisten - - - 
 - - - - - - - - - - - - - - 
 -07- Text für Zeitleiste (Woche)
--78- PHP Funktion (Ermittlung der Wochen)
 -08- Text für Zeitleiste (Jahr)
--79- PHP Funktion (Ermittlung der Jahre)
 
 - - - - - - - - - - - - - - - - -
 - - - V. Reisemöglichkeiten - - -
@@ -156,13 +150,7 @@
 -56- Text ("Rom")
 -57- Text ("Paris")
 -58- Text ("Moskau")
--10- Schaltfläche in Tabelle (Reise nach Warschau)
--11- Schaltfläche in Tabelle (Reise nach Berlin)
--12- Schaltfläche in Tabelle (Reise nach Wien)
--13- Schaltfläche in Tabelle (Reise nach London)
--14- Schaltfläche in Tabelle (Reise nach Rom)
--15- Schaltfläche in Tabelle (Reise nach Paris)
--16- Schaltfläche in Tabelle (Reise nach Moskau)
+-10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
 -40- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Warschau befindet)
 -41- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Berlin befindet)
 -42- Leeres Feld in Tabelle für Städte (später wird hier angezeigt, ob sich ein Spieler in Wien befindet)
@@ -176,11 +164,7 @@
 -59- Text ("Ägypten")
 -59- Text ("Mesopotamien")
 -59- Text ("Kreta")
--18- Schaltfläche in Tabelle (Reise nach Griechenland)
--19- Schaltfläche in Tabelle (Reise nach Palästina)
--20- Schaltfläche in Tabelle (Reise nach Ägypten)
--21- Schaltfläche in Tabelle (Reise nach Mesopotamien)
--22- Schaltfläche in Tabelle (Reise nach Kreta)
+-18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
 -47- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Griechenland befindet)
 -48- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Palästina befindet)
 -49- Leeres Feld in Tabelle für Grabungsgebiete (später wird hier angezeigt, ob sich ein Spieler in Ägypten befindet)
@@ -191,19 +175,13 @@
 - - - VI. Forscherkarten - - - 
 - - - - - - - - - - - - - - - -
 -23- 4 Tabellen für Forscherkarten 4x3 (Nummer Forscherkarte, Anzeige Stadt, Dauer und Beschreibung)
--24- Schaltfläche (Forscherkarte 1 nehmen)
--25- Schaltfläche (Forscherkarte 2 nehmen)
--26- Schaltfläche (Forscherkarte 3 nehmen)
--27- Schaltfläche (Forscherkarte 4 nehmen)
+-24- 4x Schaltfläche (Forscherkarte 1 nehmen, Forscherkarte 2 nehmen, Forscherkarte 3 nehmen, Forscherkarte 4 nehmen)
 
 - - - - - - - - - - - - - - - - - - 
 - - - VII. Ausstellungskarten - - - 
 - - - - - - - - - - - - - - - - - - 
 -28- 3 Tabellen für Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
--64- Schaltfläche (Ausstellungskarte 1 nehmen)
--65- Schaltfläche (Ausstellungskarte 2 nehmen)
--66- Schaltfläche (Ausstellungskarte 3 nehmen)
--67- Schaltfläche (Ausstellungskarte 4 nehmen)
+-64- 4x Schaltfläche (Ausstellungskarte 1 nehmen, Ausstellungskarte 2 nehmen, Ausstellungskarte 3 nehmen, Ausstellungskarte 4 nehmen)
 
 - - - - - - - - - - - - - - 
 - - - VIII. Spielmenü - - - 
@@ -262,7 +240,7 @@
 - - - - - - - - - - -
 - - - view_index - - -
 - - - - - - - - - - - -
-I. Log In
+I. Navigation
 XII. Footer
 
 - - - - - - - - - - - - - -
