@@ -28,12 +28,12 @@
 -13- Input / pw
 -14- 7x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in der Stadt befindet
 -15- Formular / Action ruft PHP Funktion auf
--16- 
+-16- Label / Wähle deinen Spielzug:
 -17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
 -18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
 -19- 5x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in dem Land befindet
--20- 
--21- 
+-20- Link / neues Spiel
+-21- 3x Tabellenüberschrift (Spielername, Gegnername, Ruhmespunkte)
 -22- 
 -23- 4x Tabellen / Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
 -24- 
@@ -41,16 +41,16 @@
 -26- 
 -27- 
 -28- 3x Tabellen / Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
--29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
+-29- Menü mit 4 Optionen / Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
 -30- PHP Ausgabe mit echo (Grabungserfolg)
 -31- PHP Ausgabe mit echo (Grabungserlaubnis)
 -32- 
 -33- PHP Ausgabe mit echo (Ruhmpunkte)
--34- Text (Spielername)
--35- Text (Gegnernamen)
+-34- PHP Ausgabe mit Echo (Spielername)
+-35- PHP Ausgabe mit Echo (Gegnernamen)
 -36- Link / Registrieren, Link zu view_account
--37- Label (Email Adresse eingeben)
--38- Label (Passwort bestätigen)
+-37- Label / Email Adresse eingeben:
+-38- Label / Passwort bestätigen:
 -39- PHP Ausgabe mit echo / Tabelle (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
 -40- 
 -41- 
@@ -80,12 +80,12 @@
 -65- 
 -66- 
 -67- 
--68- Text (Spieler xx ist am Zug und macht xx)
+-68- PHP Ausgabe mit echo (Spieler xx ist am Zug und macht xx)
 -69- 
--70- Überschrift ("Spielregeln")
+-70- h1 Überschrift / Spielregeln
 -71- Überschrift ("Account erstellen")
--72- Überschrift ("Und der Gewinner ist...")
--73- Tabelle 2x5 (Highscore)
+-72- h1 Überschrift / Und der Gewinner ist...
+-73- Tabelle 3x? (Highscore)
 -74- Absatz
 -75- h2 Überschrift ("Spielablauf")
 -76- h2 Überschrift ("Spielende")
@@ -166,43 +166,44 @@
 - - - VIII. Spielmenü - - - 
 - - - - - - - - - - - - - -
 -68- PHP Ausgabe mit echo (Spieler xx ist am Zug und macht xx)
--29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
+-15- Formular / Action ruft PHP Funktion auf
+-16- Label / Wähle deinen Spielzug:
+-29- Menü mit 4 Optionen / Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
 -30- PHP Ausgabe mit echo (Grabungserfolg)
 -31- PHP Ausgabe mit echo (Grabungserlaubnis)
 -33- PHP Ausgabe mit echo (Ruhmpunkte)
--39- PHP Ausgabe / Tabelle (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
+-39- PHP Ausgabe (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
 
 - - - - - - - - - - - - - - - 
 - - - IX. Spielerinfos - - -
 - - - - - - - - - - - - - - -
--34- Text (Spielername)
--35- Text (Gegnernamen)
+-34- PHP Ausgabe mit Echo (Spielername)
+-35- PHP Ausgabe mit Echo (Gegnernamen)
 
 - - - - - - - - - - - - -
 - - - X. Highscore - - -
-- - - - - - - - - - - - 
--72- Überschrift ("Und der Gewinner ist...")
+- - - - - - - - - - - - -
+-72- h1 Überschrift / Und der Gewinner ist...
 -73- Tabelle 3x? (Highscore)
--34- Text (Spielername)
--35- Text (Gegnernamen)
--33- Text (Ruhmpunkte)
+-21- 3x Tabellenüberschrift (Spielername, Gegnername, Ruhmespunkte)
+-20- Link / neues Spiel
 
 - - - - - - - - - - - - - - - - -
 - - - XI. Account erstellen - - -
 - - - - - - - - - - - - - - - - -
--71- Überschrift ("Account erstellen")
+-71- h1 Überschrift / Account erstellen
+-11- Formular
 -74- Absatz
 -01- Label / Username:
 -74- Absatz
 -02- Label / Passwort:
 -74- Absatz
--38- Label (Passwort bestätigen)
+-38- Label / Passwort bestätigen:
 -74- Absatz
--37- Label (Email Adresse eingeben)
+-37- Label / Email Adresse eingeben:
+-15- Formular / Action ruft PHP Funktion auf
 -74- Absatz
 -03- Input / Submit
--74- Absatz
--05- Link / Spielregeln, Link zu view_spielregeln (wird in neuem Fenster geöffnet)
 
 - - - - - - - - - - - -
 - - - XII. Footer - - -

@@ -3,7 +3,9 @@
 	- - - VIII. Spielmenü - - - 
 	- - - - - - - - - - - - - -
 	-68- PHP Ausgabe mit echo (Spieler xx ist am Zug und macht xx)
-	-29- Menü für Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
+	-15- Formular / Action ruft PHP Funktion auf
+	-16- Label / Wähle deinen Spielzug:
+	-29- Menü mit 4 Optionen / Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
 	-30- PHP Ausgabe mit echo (Grabungserfolg)
 	-31- PHP Ausgabe mit echo (Grabungserlaubnis)
 	-33- PHP Ausgabe mit echo (Ruhmpunkte)
@@ -19,7 +21,6 @@ Wahrscheinlich so ähnlich (Variablen sind noch nicht genau definiert):
 
 <form action=function_playersturn.php>
 	<label>Wähle deinen Spielzug:
-		<p></p>
 			<select name=spielzug size=4>
 				<option>Forscherkarte nehmen</option>
 				<option>Kartenauslagetausch</option> <!-- If-Funktion: Diese Option ist nur visible, wenn Spieler sich in Warschau befindet -->

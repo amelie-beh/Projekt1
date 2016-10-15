@@ -2,8 +2,8 @@
 	- - - - - - - - - - - - - - - 
 	- - - IX. Spielerinfos - - -
 	- - - - - - - - - - - - - - -
-	-34- PHP Echo (Spielername)
-	-35- PHP Echo (Gegnernamen)
+	-34- PHP Ausgabe mit Echo (Spielername)
+	-35- PHP Ausgabe mit Echo (Gegnernamen)
 
 -->
 
