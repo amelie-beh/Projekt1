@@ -2,11 +2,10 @@
 	- - - - - - - - - - - - - - - -
 	- - - VI. Forscherkarten - - - 
 	- - - - - - - - - - - - - - - -
-	-23- 4 Tabellen für Forscherkarten 4x3 (Nummer Forscherkarte, Anzeige Stadt, Dauer und Beschreibung)
-	-24- Schaltfläche (Forscherkarte 1 nehmen)
-	-25- Schaltfläche (Forscherkarte 2 nehmen)
-	-26- Schaltfläche (Forscherkarte 3 nehmen)
-	-27- Schaltfläche (Forscherkarte 4 nehmen)
+	-23- 4x Tabellen / Forscherkarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+	-15- Formular / Action ruft PHP Funktion auf
+	-03- 4x Input / Submit (Forscherkarte 1 nehmen, Forscherkarte 2 nehmen, Forscherkarte 3 nehmen, Forscherkarte 4 nehmen)
+	
 -->
 <!-- Forscherkarte 1 -->
 <table>

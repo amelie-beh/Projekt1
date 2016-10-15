@@ -2,11 +2,9 @@
 	- - - - - - - - - - - - - - - - - - 
 	- - - VII. Ausstellungskarten - - - 
 	- - - - - - - - - - - - - - - - - - 
-	-28- 3 Tabellen für Ausstellungskarten 4x3 (Kartennummer, Anzeige Stadt, Dauer und Beschreibung)
-	-64- Schaltfläche (Ausstellungskarte 1 nehmen)
-	-65- Schaltfläche (Ausstellungskarte 2 nehmen)
-	-66- Schaltfläche (Ausstellungskarte 3 nehmen)
-	-67- Schaltfläche (Ausstellungskarte 4 nehmen)
+	-28- 3x Tabellen / Ausstellungskarten 3x3 (Anzeige Stadt, Dauer und Beschreibung)
+	-15- Formular / Action ruft PHP Funktion auf
+	-03- 4x Input / Submit (Ausstellungskarte 1 nehmen, Ausstellungskarte 2 nehmen, Ausstellungskarte 3 nehmen, Ausstellungskarte 4 nehmen)
 -->
 
 <!-- Ausstellungskarte 1 -->
