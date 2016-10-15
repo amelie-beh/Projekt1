@@ -25,5 +25,5 @@
 	</form>
 					
 	<a href=view_account.php>Registrieren</a>				
-	<a href=view_spielregeln.php target=_blank>Spielregeln</a><
+	<a href=view_spielregeln.php target=_blank>Spielregeln</a>
 </nav>

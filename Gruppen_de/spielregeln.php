@@ -2,13 +2,12 @@
 	- - - - - - - - - - - - - - 
 	- - - II. Spielregeln - - -
 	- - - - - - - - - - - - - - 
-	-70- Überschrift ("Spielregeln")
-	-32- Text mit Absätzen
-	-75- h2 Überschrift ("Spielablauf")
-	-32- Text mit Absätzen
-	-76- h2 Überschrift ("Spielende")
-	-32- Text mit Absätzen
-	-74- Absatz
+	-70- h1 Überschrift / Spielregeln
+	-32- Absatz (3x)
+	-75- h2 Überschrift / Spielablauf
+	-32- Absatz (11x)
+	-76- h2 Überschrift / Spielende
+	-32- Absatz (2x)
 -->
 <h1>Spielregeln</h1>
 
