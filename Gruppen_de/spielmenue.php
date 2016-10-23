@@ -2,14 +2,14 @@
 	- - - - - - - - - - - - - - 
 	- - - VIII. Spielmenü - - - 
 	- - - - - - - - - - - - - -
-	-68- PHP Ausgabe mit echo (Spieler xx ist am Zug und macht xx)
+	-68- PHP Ausgabe mit echo / Spieler xx ist am Zug und macht xx
 	-15- Formular / Action ruft PHP Funktion auf
 	-16- Label / Wähle deinen Spielzug:
 	-29- Menü mit 4 Optionen / Auswahl des Spielzuges (Forscherkarte nehmen, Kartenauslagetausch(nur in Warschau möglich), Ausgrabung durchführen, Ausstellung durchführen)
-	-30- PHP Ausgabe mit echo (Grabungserfolg)
-	-31- PHP Ausgabe mit echo (Grabungserlaubnis)
-	-33- PHP Ausgabe mit echo (Ruhmpunkte)
-	-39- PHP Ausgabe (Inventar -> Forscherkarten und Ausstellungskarten im Besitz)
+	-30- PHP Ausgabe mit echo / Grabungserfolg
+	-31- PHP Ausgabe mit echo / Grabungserlaubnis
+	-33- PHP Ausgabe mit echo / Ruhmpunkte
+	-39- PHP Ausgabe / Inventar -> Forscherkarten und Ausstellungskarten im Besitz
 -->
 
 <!-- Text wird durch eine PHP Funktion generiert : "Spieler xx ist am Zug und macht xx"

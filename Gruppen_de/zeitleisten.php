@@ -2,8 +2,8 @@
 	- - - - - - - - - - - - - -
 	- - - IV. Zeitleisten - - - 
 	- - - - - - - - - - - - - - 
-	-07- PHP Ausgabe mit Echo (Wochen)
-	-08- PHP Ausgabe mit Echo (Jahre)
+	-07- PHP Ausgabe mit Echo / Wochen:
+	-08- PHP Ausgabe mit Echo / Jahre:
 --->
 			
 

@@ -1,12 +1,10 @@
 <!--
 - - - - - - - - - - - - -
 - - - X. Highscore - - -
-- - - - - - - - - - - - 
+- - - - - - - - - - - - -
 -72- h1 Überschrift / Und der Gewinner ist...
--73- Tabelle 3x? (Highscore)
--34- Tabellenüberschrift (Spielername)
--35- Tabellenüberschrift (Gegnernamen)
--33- Tabellenüberschrift (Ruhmpunkte)
+-73- Tabelle 3x? / Highscore
+-21- 3x Tabellenüberschrift / th Spielername, Gegnername, Ruhmespunkte
 -20- Link / neues Spiel
 -->
 

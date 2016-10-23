@@ -3,11 +3,11 @@
 - - - V. Reisemöglichkeiten - - -
 - - - - - - - - - - - - - - - - -
 	-15- Formular / Action ruft PHP Funktion auf
-	-09- Tabelle für Städte 7x3 (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
-	-10- 7x Schaltfläche in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
+	-09- 7x3 Tabelle / für Städte (Warschau, Berlin, Wien, London, Rom, Paris, Moskau + Anzeige ob und welche Spieler sich dort befinden)
+	-03- 7x Input / Submit in Tabelle (Reise nach Warschau, Berlin, Wien, London, Rom, Paris, Moskau)
 	-14- 7x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in der Stadt befindet
-	-17- Tabelle für Grabungsgebiete 5x3 (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
-	-18- 5x Schaltfläche in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
+	-17- 5x3 Tabelle / für Grabungsgebiete (Griechenland, Palästina, Ägypten, Mesopotamien, Kreta + Anzeige ob und welche Spieler sich dort befinden)
+	-03- 5x Input / Submit in Tabelle (Reise nach Griechenland, Palästina, Ägypten, Mesopotamien, Kreta)
 	-19- 5x PHP Ausgabe mit Echo / Anzeige ob sich ein Spieler in dem Land befindet
 -->
 
