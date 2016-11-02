@@ -5,6 +5,9 @@
 			<title></title>
 	</head>
 		<body>
+		
+			<?php include ("Gruppen_de/navigation.php"); ?>	
+			
 			<main>
 				<?php include ("Gruppen_de/highscore.php"); ?>
 			</main>
