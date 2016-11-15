@@ -1,0 +1,180 @@
+============================================================
+=== Überarbeitung der Projektidee amelie-beh, 2016-11-02 ===
+============================================================
+
+//Gespräch am 25.10.2016 über horizontales Arbeiten, Interaktion//
+
+Auf Grundlage des Brettspiels "Jenseits von Theben" http://www.brettspiele-report.de/jenseits-von-theben/
+In dem Spiel geht es darum als Archäologe durch Europa zu reisen und Fundstücke zu finden.
+Diese Fundstücke bringen Ruhmpunkte. Der Spieler mit den meisten Rumpunkten gewinnt.
+
+Die Webanwendung hat folgende Aufgaben:
+- Sie steuert die Gegner des Anwenders
+- Sie steuert das Level des Anwenders
+- Sie zeigt die Züge des/der Gegner/s an
+- Sie weist die Spielzüge zu
+- Sie rechnet die Anzeige der Zeitsteine und der Jahressteine aus
+- Sie reagiert auf die Aktionen des Anwenders und der Gegner(Forscherkarte nehmen, Kartenauslagetausch, Ausgrabung durchführen, Ausstellung durchführen)
+- Sie zeigt den Grabungserfolg an und rechnet diesen aus
+- Sie verwaltet die Grabungserlaubnis von jedem Gebiet
+- Sie speichert die Ruhmpunkte der verschiedenen Fundstücke/Forscherkarten ab und greift, falls nötig, darauf zu
+- Sie speichert, welche Karten der Anwender bereits genommen hat
+- Sie prüft, ob der Spieler die Voraussetzung erfüllt, um Ausstellungskarten zu nehmen
+- Sie rechnet die Ruhmpunkte am Ende des Spieles zusammen und teilt den Gewinner mit
+- Sie gewährt dem Spieler durch einen Log-In Zutritt
+- Sie speichert den aktuellen Spielstand des Anwenders, falls dieser zu einem späteren Zeitpunkt weiter spielen möchte
+- Sie reagiert während des Spieles auf den Spielstand und wählt dadurch die nächsten Forscher- und Ausstellungskarten sowie Fundstücke aus
+
+Startseite
+Auf der Startseite kann der Benutzer sich einloggen, registrieren, sich die Spielregeln anschauen und sich einen Überblick über das Spielfeld verschaffen.
+Die Spielregeln werden hierbei in einem gesonderten Fenster geöffnet, damit der Spieler jederzeit auf die Spielregeln zugreifen kann.
+
+Account erstellen
+Der Nutzer kann sich einen Account erstellen, in dem der aktuelle Stand des Spieles gespeichert wird, falls der Spieler die Spielpartie unterbrechen muss.
+Auch hier hat er die Möglichkeit sich über die Navigation doch einzuloggen, falls er bereits einen Account besitzt.
+
+Spielregeln
+Die Spielregeln öffnen sich in einem neuen Tab, sodass der Anwender zu jeder Zeit auf die Spielregeln zugreifen kann.
+
+Neues Spiel
+Der Anwender kann zwischen ein, zwei und drei Gegnern auswählen. Die Art wie die Gegner interagieren, wird dabei zufällig ausgewählt.
+
+Spielende
+Am Spielende wird eine Highscore angezeigt. Hier hat der Spieler die Möglichkeit ein neues Spiel zu starten.
+
+Level //Dieser Punkt muss noch in strukt.html, sowie in die HTML und PHP Dokumente umgesetzt werden//
+Je mehr Ruhmpunkte der Spieler sammelt, desto höher steigt sein Level. Jedoch wird das Spiel von Level zu Level schwieriger.
+Um dies zu gewährleisten überprüft die Webanwendung das Level des Spielers. 
+Zu Anfang also Level 1 wird es dem Spieler noch einfach gemacht. Die Ruhmpunkte fallen noch relativ hoch aus, die Gegner sind nicht aggressiv und der Anwender hat gute Chancen zu gewinnen,
+da die Ruhmespunkte zu seinem Vorteil ausgelost werden. Die Gegner spielen hierbei zufällig und achten weder auf Wochen, noch auf Ruhmespunkte.
+Das höchste Level ist 10, die Gegner wählen die Aktion aus, die am wenigsten Wochen benötigen und dazu noch die höchsten Ruhmespunkte geben.
+Hierbei sollen die Gegner einen Vorteil durch die Programmierung erlangen. Ist der Gegner als nächstes am Zug und der Anwender hat zuvor eine Forscher- oder Ausstellungskarte oder ein Fundstück genommen,
+wird für den Gegner eine höherwertige Karte bzw Fundstück zur Verfügung gestellt, d.h. die Gegner erhalten den Vorteil, den der Anwender zu Anfang des Spieles genießen konnten.
+Hierbei ist das Balancing wichtig, da der Spieler auch dennoch eine Chance haben soll zu gewinnen. Die Punkte werden durchgehend ausgewertet und auf diese werden reagiert.
+Zwischen Level 1 und Level 10 soll sich der Schwierigkeitsgrad langsam steigern, sodass der Anwender gefördert bleibt und ihm das Spiel nicht zu langweilig wird.
+
+============================================================
+=== Überarbeitung der Projektidee amelie-beh, 2016-04-07 ===
+============================================================
+
+Ich möchte gerne das Spiel Mastermind mit Zahlen umsetzen.
+
+Ziel des Spieles ist es, einen vierstelligen Code zu erraten. Der Code besteht hierbei aus zufällig generierten Zahlen zwischen 0 und 9 (eine Zahl kann auch doppelt vorkommen).
+Der Spieler hat hierbei 10 Versuche um den Code herauszufinden. Nach jedem Zug bekommt der Spieler einen Hinweis, wie viele Zahlen er bereits richtig geraten und ob sich diese Zahlen an der richtigen Position befinden.
+
+Hierbei wird die Zeit bis zum Erraten des gesamten Codes gemessen. Die Zeiten sollen in einer Highscore-Liste erscheinen, damit man sich mit anderen Spielern messen kann.
+
+==========================================
+=== Projektidee amelie-beh, 2016-04-05 ===
+==========================================
+
+Ich möchte gerne eine Sammlung von Mini-Spielen programmieren wie zum Beispiel Mastermind, Schere Stein Papier, etc.
+Die Spiele können über die jeweilgen Unterseiten aufgerufen werden und gespielt werden.
+
+===================================
+=== Feedback Alpers, 2016-04-06 ===
+===================================
+
+Leider ist das keine gute Projektbeschreibung. Sie sollten sich ein bis zwei Stunden nehmen, um ihre Projektidee zu entwerfen. Momentan besteht die Projektidee in einer Seite, von der aus Projekte aufgerufen werden können. Belassen Sie es auch erst einmal dabei, ein Projekt bzw. ein Spiel zu konzipieren und die Inhalte zu beschreiben.
+
+===============================================================
+=== Zweiter Aufgabenblock (identisch für alle Studierenden) ===
+===============================================================
+(gelöscht, da inzwischen für alle im Lernraum einsehbar)
+
+===================================
+=== Feedback Alpers, 2016-04-27 ===
+===================================
+
+Leider ist das keine gute Projektidee, weil die geforderte Interaktion fehlt. Effektiv läuft es darauf hinaus, dass Spieler eine Zahl/Farbkombi/Wort erraten muss.
+
+Damit Sie weiterarbeiten können, nehmen Sie sich bitte folgendes Brettspiel zur Vorlage, erarbeiten dazu eine Beschreibung im Sinne von Kap. 5 und entwickeln danach die Datei strukt.html: Jenseits von Theben http://www.brettspiele-report.de/jenseits-von-theben/
+
+===================================
+=== Feedback Alpers, 2016-06-08 ===
+===================================
+
+Gut. Sie müssen jetzt noch ausarbeiten, wie computergesteuerte Spieler an der Partie teilnehmen bzw. wie sie dabei vorgehen.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+
+===================================
+=== Feedback Alpers, 2016-06-27 ===
+===================================
+
+Der Hinweis vom letzten Mal bezog sich auf das Thema Interaktion zwischen Mensch und Maschine. Hier ein Absatz dazu, wofür der Begriff Interaktivität in diesem Projekt steht, weil der Begriff nicht eindeutig ist: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+===================================
+=== Feedback Alpers, 2016-07-25 ===
+===================================
+
+Leider keine Änderungen seit dem letzten Feedback. 
+
+Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachweises darin besteht, dass Sie kontinuierlich am Projekt arbeiten. Wie schon mehrfach erklärt gilt: Kontinuierliches Arbeiten bedeutet jede Woche am Projekt zu arbeiten. Und da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen. Wenn Sie weiterhin deutlich weniger am Projekt arbeiten, dann muss ich es auf der Basis des aktuellen Stands bewerten.
+
+===================================
+=== Feedback Alpers, 2016-10-04 ===
+===================================
+
+Leider keine Änderungen an der Beschreibung erkennbar.
+
+=================================================
+=== Wertung 2: Projektentwurf: gesamt: 8 / 10 ===
+=================================================
+- Knappe und klare Stichpunkte 0 bis 2 Pk.: 2 
+- Umfang der eigentlichen Anwendung 0 bis 3 Pk.: 3 
+- Aspekte verteilter Anwendungen 0 bis 3 Pk.: 3
+- Aspekte adaptiver Anwendungen 0 bis 2 Pk.: 0 
+=== (Malus beim Projektentwurf) ===
+- Werbeslogans u.ä. bis zu 3 Pk. Abzug: 0 
+- Design- oder Layoutvorgaben bis zu 5 Pk. Abzug: 0 
+- Voraussetzung bekannten Wissens bis zu 5 Pk. Abzug: 0 
+
+Wichtig: Sie haben hier ausschließlich die Abläufe und damit kaum Inhalte notiert. Dadurch ist die weitere Arbeit deutlich erschwert.
+
+================================================================
+=== Wertung 3: Ausarbeitung der strukt. Elem. gesamt: 4 / 10 ===
+================================================================
+- Knappe Form 0 bis 3 Pk.: 3
+- Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen) 1 Pk., 0 bis 7 Pk.: 1
+=== (Malus bei strukt. Elem.) ===
+- Vermischung strukt. Elem., Gruppierung, Abläufe usw. bis zu 5 Pk. Abzug: 0
+
+Wichtig: PHP-Code dient der Umsetzung der Abläufe, die den Inhalt von strukturellen Elementen ändern. Sie selbst sind keine Elemente im Sinne der Struktur.
+
+=======================================
+=== Wertung 4: Microservices: 5 / 5 ===
+=======================================
+- für jeden für die Kernanwendung sinnvollen Microservice 1 Pk.:  5
+=== (Malus bei strukt. Elem.) ===
+- Wenn Micrservices vergessen wurden, die für verteilte adaptive Anwendungen eine Voraussetzung sind, je 1 Pk. Abzug: 0
+
+=========================================
+=== Wertung 5: Ansichten/Views: 2 / 5 ===
+=========================================
+- für jede sinnvolle Ansicht 1 Pk.: 2
+
+=================================
+=== Wertung 6: HTML 5: 5 / 10 ===
+=================================
+- Umsetzung pro Microservice je 1 Pk. (max. 10): 5
+- Missachtung von Änderungen von HTML 4.01 zu 5 (-5 bis 0 Pk.): 0
+- Abweichung von den Vorgaben in der strukt.txt (je -1/2 Pk.): 0
+
+====================================
+=== Wertung 7: PHP/MySQL: 0 / 30 ===
+====================================
+- Funktionalität von Formularen 0 bis 5 Pk.: 0 
+- Funktionalität für Microservices 0 bis 5 Pk.: 0 
+- Realisierung einer Programmlogik 0 bis 10 Pk.: 0 
+- Erzeugung einer DB 0 bis 5 Pk.: 0 
+- Anbindung einer Transaktion, um Variablen in der Anwendung zu verwenden 0 bis 5 Pk.: 0 
+
+Damit haben Sie 24 von 35 nötigen Punkten erreicht. 
+
+Die fehlenden 11 Punkte können Sie wie beschrieben über die Umsetzung eines Projektes erreichen, das Sie in den nächsten Tagen erhalten werden. Sollten dann immer noch Punkte fehlen, können Sie an Ihrem Projekt weiterarbeiten. Sprechen Sie mich in dem Fall zeitnah an.
